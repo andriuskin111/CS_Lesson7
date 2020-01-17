@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2E2D846D-2F7C-4CF6-9DF5-2CCAC89029A1}</ProjectGuid>
+    <ProjectGuid>{9B7F18BB-9E2B-4F4A-AC44-FD2DA38299D8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>KD_strukturos_1_2</RootNamespace>
-    <AssemblyName>KD_strukturos_1_2</AssemblyName>
+    <RootNamespace>KD_Unitestas</RootNamespace>
+    <AssemblyName>KD_Unitestas</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BibliotekosKnyga.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
