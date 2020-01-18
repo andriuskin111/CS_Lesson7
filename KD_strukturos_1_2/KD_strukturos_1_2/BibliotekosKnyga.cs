@@ -20,5 +20,19 @@ namespace KD_strukturos_1_2
             skaitytojoVardas = vardas;
             paemimoData = data;
         }
+
+        public int GrazintiSkaitymoDienuSkaiciu()
+        {
+            int skaitymoDienuSkaicius = DateTime.Now.DayOfYear - paemimoData.DayOfYear;
+            return skaitymoDienuSkaicius;
+        }
+
+        public void ParodytiSkaitytojoInformacija(int dienuSkaicius)
+        {
+            Console.WriteLine($"Knygos ID: {id}\n" +
+                $"Knygos pavadinimas: {pavadinimas}\n" +
+                $"Skaitytojo vardas: {skaitytojoVardas}\n" +
+                $"Skaito dienu: {dienuSkaicius}");
+        }
     }
 }
