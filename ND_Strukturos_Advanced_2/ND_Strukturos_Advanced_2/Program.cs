@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ND_Strukturos_Advanced_2
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {

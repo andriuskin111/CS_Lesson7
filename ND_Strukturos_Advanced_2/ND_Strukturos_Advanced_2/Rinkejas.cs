@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ND_Strukturos_Advanced_2
 {
-    struct Rinkejas
+   public struct Rinkejas
     {
         public int id;
         public bool arPrabalsavo;
@@ -23,6 +23,13 @@ namespace ND_Strukturos_Advanced_2
             {
                 Console.WriteLine($"Rinkejo ID: {item.id}, Ar prabalsavo: {item.arPrabalsavo}");
             }
+
+        }
+
+        public int Testas(int skaicius)
+        {
+            int resultatas = skaicius + 10;
+            return resultatas;
         }
     }
 }
